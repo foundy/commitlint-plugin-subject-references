@@ -1,0 +1,26 @@
+{
+  "name": "commitlint-plugin-subject-references",
+  "version": "0.1.0",
+  "description": "",
+  "author": "foundy <foundy@foundy.io>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:foundy/commitlint-plugin-subject-references.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlintplugin",
+    "trailing",
+    "trailing-references",
+    "subject-references",
+    "subject-trailing-references"
+  ],
+  "peerDependencies": {
+    "@commitlint/lint": ">=7.6.0"
+  },
+  "license": "MIT"
+}
