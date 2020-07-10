@@ -1,0 +1,1 @@
+# commitlint-plugin-subject-references
