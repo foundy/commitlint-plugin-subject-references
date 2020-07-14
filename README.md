@@ -44,3 +44,15 @@ $ git commit -m 'feat: (#1) my commit'
 # good
 $ git commit -m 'feat: my commit (#1)'
 ```
+
+Multiple issues
+```bash
+# bad
+$ git commit -m 'feat: my commit (#1 #2 #3)'
+
+# bad
+$ git commit -m 'feat: my commit (#1, #2, #3)'
+
+# good
+$ git commit -m 'feat: my commit (#1,#2,#3)'
+```
