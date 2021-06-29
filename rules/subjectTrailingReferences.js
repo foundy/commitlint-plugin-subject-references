@@ -7,7 +7,7 @@ module.exports = ({ subject, header, references }, when = 'always', value) => {
   }
 
   // only parentheses
-  const matches = subject.match(/\(([^)]+)\)$/);
+  const matches = (subject || '').match(/\(([^)]+)\)$/);
   const match = matches ? matches[1] : '';
   const issues = [];
 
