@@ -17,6 +17,7 @@ module.exports = {
   ],
   rules: {
     'references-empty': [2, 'never'],
+    'subject-empty': [2, 'never'],
     'subject-trailing-references': [2, 'always']
   },
   plugins: [
